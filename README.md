@@ -9,7 +9,9 @@ Instructions
 1. Copy this file to ~/bin/tmux-zoom.sh
 
 2. Add the below line to ~/.tmux.conf
+  
   > unbind x
+
   > bind x run ". ~/bin/zoom"
 
 **Now press Prefix-Key + x to zoom in tmux.**
